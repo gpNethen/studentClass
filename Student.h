@@ -17,11 +17,15 @@ class Student
           int getSid();                  //Retrieves Student ID
           string getFname();             //Retrieves Student first name
           string getLname();             //Retrieves Student last name
+     
           int getScore1();               //Score retrieval functions
           int getScore2();
           int getScore3();
           int getScore4();
-          void inputStudentInfo();       //Function to get user input to store in Student object
+     
+          //Function to get user input to store in Student object
+          void inputStudentInfo(int id, string f, string l, int s1, int s2, int s3, int s4);
+     
           void displayStudentInfo();     //Function to display all of the stats of a Student object
           float computeAvgScore();       //Function that returns the average of the Student object's four exam scores
           
